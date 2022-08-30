@@ -29,7 +29,7 @@ main {
 
 .headerPadre {
   display: flex;
-  height: 100px;  
+  height: auto;  
   background-color: #ffbd9b;
   padding: 9px;  
   justify-content: space-around;
@@ -123,8 +123,8 @@ main {
 
 .indexHijo {
   
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  min-height: 650px;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 10px;
@@ -155,7 +155,7 @@ footer {
   }
 
 .footerPadre {
-  height: 100px;
+  height: auto;
   background-color: #ffbd9b;
   border-width: 0px;
   padding: 9px;
@@ -240,8 +240,8 @@ a {
 
 .hijoFlexRecetas {
   background-color: #ffbd9b;
-  height: 250px;
-  width: 200px;
+  height: 320px;
+  width: 290px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -283,7 +283,7 @@ a {
 }
 
 .comprarPasosHijo {
-  height: 250px;
+  height: auto;
   width: 200px;
   display: flex;
   align-items: center;
@@ -311,7 +311,7 @@ a {
 
 .padreFaqs p {
   text-align: justify;
-}
+  }
 
 /*Pagina consejos*/
 
@@ -457,10 +457,6 @@ height: auto;
   ;
 }
 
-  .headerHijoTwo {
-  display: none;
- }
-
  .indexPadre {
   flex-wrap: wrap ;
  }
@@ -469,6 +465,7 @@ height: auto;
  .contactoPadreForm img {
   display: none;
  }
+
 
  .footerRedesContacto {
   display: none;
